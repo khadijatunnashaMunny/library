@@ -1,0 +1,521 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.lib{
+	
+	.header{
+		width: 100%;
+		height: 65px;
+		background: #fff;
+
+		img{
+			height: 80px;
+			width:250px;
+			float: left;
+
+
+		}
+
+		.logout{
+
+			input[type="submit"] {
+
+				margin-top: 30px;
+				background-color: #ff5252;
+				color: #FFF;
+				width: 120px;
+				cursor: pointer;
+				float: right;
+
+			}
+
+		}
+	}
+	
+
+
+	.menu{
+
+		background-color: #f8f9fa;
+		height: 60px;
+		width: 100%;
+
+		&:after{
+			content:'';
+			display: block;
+			clear: both;
+		}
+
+		
+		ul{
+
+			font-weight: bold;
+
+		
+
+
+			li{
+				display: inline-block;
+			
+				float: right;
+				border: 1px solid transparent;
+				border-radius: 5px;
+				padding: 15px 10px;
+				font-weight: bold;
+
+
+				&:hover{
+				
+					cursor: pointer;
+					border: 1px solid #444;
+
+				}
+
+				
+			
+
+				a{
+
+					color: #000;
+					text-decoration: none;
+				
+				
+					
+
+
+
+					
+
+				}
+
+
+				
+			}
+
+		}
+
+
+	}
+	
+	
+}
+
+
+
+
+
+
+.pic{
+	
+	width: 100%;
+	height: 490px;
+	
+
+	img{
+		
+		padding-top: 40px;
+		height: 400px;
+		width: 400px;
+		margin-left: 450px;
+
+	}
+
+
+}
+
+h6{
+	float: right;
+
+	font-weight: bold;
+	font-family: candara;
+}
+
+
+.form {
+
+	h5{
+
+     	text-transform: uppercase;
+    	font-weight: bold;
+    }
+
+    .mid{
+
+    	width: 70%;
+    	float: left;
+    	padding-left: 300px;
+    	padding-top: 30px;
+
+    }
+}
+
+
+
+.user_form{
+
+
+		h5{
+
+	     	text-transform: uppercase;
+	    	font-weight: bold;
+	    }
+
+
+	    .user {
+
+	    	width: 800px;
+	   
+	    	border: 1px solid #7c8a98;
+	    	margin: 50px auto;
+	    	padding-top: 0px;
+	    	border-radius: 5px;
+	    	display: block;
+	    	padding-bottom: 30px!important;
+
+	    	.sign{
+	    		padding: 0px;
+	    		margin: 0px;
+	    		height: 40px;
+	    		background: #fbc9dcf7;
+	    		p{
+
+	    			padding: 10px;
+	    			font-weight: bold;
+			
+
+	    			color:#ff5252;
+
+	    		}
+
+	    	}
+	    	
+
+	    	
+
+	    	label{
+
+	    		display: block;
+	    		margin-top: 10px;
+	    		font-weight: bold;
+	    	}
+
+	    	input{
+
+
+	    			display: block;
+	    			width: 100%;
+	    			padding: 3px;
+	    			border: 1px solid #7c8a98;
+	    			box-sizing: border-box;
+	    			border-radius: 5px;
+
+
+	    	}
+
+	    	
+	    	
+
+	    
+	    	input[type="submit"] {
+
+	    		margin-top: 10px;
+	    		background-color: #ff5252;
+	    		color: #FFF;
+	    		width: 120px;
+	    		cursor: pointer;
+
+	    	}
+
+	    }
+
+
+}
+
+
+
+.dashboard{
+	
+	.return_book{
+
+		border: 1px solid #6a6abd;
+		float: left;
+	    width: 200px;
+	    height: 200px;
+		margin:  100px;
+		border-radius: 5px;
+
+
+		img{
+
+			padding: 30px 60px;
+		}
+
+		p{
+			text-align: center;
+		}
+	
+
+	}
+
+	.not_return_book{
+
+		border: 1px solid #f2a3f9;
+	    width: 200px;
+	    height: 200px;
+	    float: right;
+		margin-top:   100px;
+		border-radius: 5px;
+
+		img{
+			padding: 20px 50px;
+		}
+
+		p{
+			text-align: center;
+		}
+		
+
+
+
+
+
+	}
+}
+
+
+
+.bookissu{
+
+
+		h5{
+
+	     	text-transform: uppercase;
+	    	font-weight: bold;
+	    }
+
+
+	    .book {
+
+	    	width: 800px;
+	   
+	    	border: 1px solid #7c8a98;
+	    	margin: 50px auto;
+	    	padding-top: 0px;
+	    	border-radius: 5px;
+	    	display: block;
+	    	padding-bottom: 30px!important;
+
+	    	.sign{
+	    		padding: 0px;
+	    		margin: 0px;
+	    		height: 40px;
+	    		background: #949090;
+	    		p{
+
+	    			padding: 10px;
+	    			font-weight: bold;
+	    			color:#fff;
+
+	    		}
+
+	    	}
+
+	    	.up{
+
+
+	    		padding: 20px 2px;
+
+	    		input{
+	    			float: left;
+	    		}
+
+
+
+	    		.right_div{
+
+	    			input{
+	    				float: right;
+	    			}
+
+	    			label{
+	    				float: right;
+	    			}
+
+	    			
+
+	    		}
+
+	    	}
+	    	
+
+	    	.search{
+
+	    		input{
+
+	    			display: block;
+	    			width: 100%;
+	    			padding:2px;
+	    			border: 1px solid #7c8a98;
+	    			
+
+	    			
+	    		}
+
+
+	    	}
+
+
+
+
+
+	    }
+
+    }
+	    	
+
+
+
+
+    .dashboard_list{
+    	
+    	.book_list{
+
+    		border: 1px solid #6a6abd;
+    	
+    	    width: 200px;
+    	    height: 200px;
+    		margin:  70px;
+    		border-radius: 5px;
+
+
+    		img{
+
+    			padding: 10px 50px;
+    		}
+
+    		p{
+    			text-align: center;
+    		}
+    	
+
+    	}
+
+    	.book_issu{
+
+    		border: 1px solid #f2a3f9;
+    	    width: 200px;
+    	    height: 200px;
+    	    float: right;
+    		margin:   70px;
+    		border-radius: 5px;
+
+    		img{
+    			padding: 25px 50px;
+    		}
+
+    		p{
+    			text-align: center;
+    		}
+    		}
+
+    	.return_book{
+
+    			border: 1px solid #6a6abd;
+    		    width: 200px;
+    		    height: 200px;
+    		  
+    			margin:   70px;
+    			border-radius: 5px;
+
+    			img{
+    				padding: 20px 50px;
+    			}
+
+    			p{
+    				text-align: center;
+    			}
+    			
+
+
+
+
+    	}
+
+
+
+    	.registered_user{
+
+    			border: 1px solid #f2a3f9;
+    		    width: 200px;
+    		    height: 200px;
+    		  
+    			margin:   70px;
+    			border-radius: 5px;
+
+    			img{
+    				padding: 20px 50px;
+    			}
+
+    			p{
+    				text-align: center;
+    			}
+    			
+
+    		
+    	}
+
+
+
+
+    	.author_list{
+
+    			border: 1px solid #6a6abd;
+    		    width: 200px;
+    		    height: 200px;
+    	
+    			margin:   70px;
+    			border-radius: 5px;
+
+    			img{
+    				padding: 20px 50px;
+    			}
+
+    			p{
+    				text-align: center;
+    			}
+    			
+
+    		
+    	}
+
+
+
+    	.list_catagory{
+
+    			border: 1px solid #f2a3f9;
+    		    width: 200px;
+    		    height: 200px;
+    		 
+    			margin:   70px;
+    			border-radius: 5px;
+
+    			img{
+    				padding: 20px 50px;
+    			}
+
+    			p{
+    				text-align: center;
+    			}
+    			
+
+    		
+    	}
+
+
+
+
+
+
+    	}
+    
